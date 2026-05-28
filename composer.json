@@ -16,12 +16,17 @@
         "composer/installers": "~2.0"
     },
     "require-dev": {
-        "mockery/mockery": "^0.9.4",
-        "php-mock/php-mock": "^1.0",
-        "php-mock/php-mock-mockery": "^1.1",
-        "phpspec/phpspec": "~2.0"
+        "mockery/mockery": "^1.6",
+        "php-mock/php-mock": "^2.0",
+        "php-mock/php-mock-mockery": "^1.4",
+        "phpspec/phpspec": "^7.0"
     },
 	"autoload-dev": {
 		"files": ["classes/acf-file_picker-v5.php"]
-	}
+	},
+    "config": {
+        "platform": {
+            "php": "8.3.0"
+        }
+    }
 }
